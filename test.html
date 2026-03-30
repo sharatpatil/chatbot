@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatbot Integration Test</title>
+</head>
+<body>
+
+<h2>Main Dashboard Page</h2>
+<p>This simulates your real app</p>
+
+<!-- Load chatbot -->
+<script src="./dist/chatbot.js"></script>
+
+<script>
+  Chatbot.init({
+    userId: "test-user-123"
+  });
+
+  
+  console.log(window.Chatbot);
+</script>
+
+</body>
+</html>
